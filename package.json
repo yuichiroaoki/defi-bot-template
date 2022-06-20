@@ -30,6 +30,7 @@
     "axios": "latest",
     "dotenv": "latest",
     "ethers": "^5.5.3",
+    "log4js": "^6.5.2",
     "ts-node": "latest",
     "typescript": "latest"
   },
