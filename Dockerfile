@@ -5,7 +5,7 @@ WORKDIR /app
 ENV NODE_ENV production
 
 COPY package.json .
-RUN yarn set version berry
+RUN yarn set version 3.2.1
 
 COPY .yarn tsconfig.json .yarnrc.yml ./
 RUN yarn install
