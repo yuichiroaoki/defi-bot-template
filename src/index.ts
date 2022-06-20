@@ -25,7 +25,7 @@ const errLogger = log4js.getLogger("error");
 export const main = async () => {
   logger.info("Started");
   // const provider = new ethers.providers.JsonRpcProvider(
-  //   process.env.ALCHEMY_POLYGON_RPC_URL
+  //   process.env.JSON_RPC_URL
   // );
   // const signer = new ethers.Wallet(privateKey, provider);
   // console.log(await signer.getBalance())
